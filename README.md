@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # chain_of_trust
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# chain-of-trust-flutter-app
+Flutter app for blockchain-based certificate creation, verification, and management – “Chain of Trust”.
+>>>>>>> 2318475b105526df67f21c46fd34ea3e58dc26a5

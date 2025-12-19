@@ -1,21 +1,31 @@
-<<<<<<< HEAD
-# chain_of_trust
+# Chain of Trust Flutter App
 
-A new Flutter project.
-java -version
+A **Flutter mobile application** for **blockchain-based certificate creation, verification, and management**.  
+This project, named **“Chain of Trust”**, demonstrates how blockchain can be used to securely store and validate certificates.
+
+---
+
+## Features
+
+- Create and store certificates securely on the blockchain  
+- Verify certificate authenticity using blockchain hash  
+- Revoke certificates when necessary  
+- User-friendly Flutter mobile interface  
+
+---
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built with Flutter. To get started:
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed ([Flutter installation guide](https://docs.flutter.dev/get-started/install))  
+- Android Studio or VS Code for Flutter development  
+- Dart SDK (comes with Flutter)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# chain-of-trust-flutter-app
-Flutter app for blockchain-based certificate creation, verification, and management – “Chain of Trust”.
->>>>>>> 2318475b105526df67f21c46fd34ea3e58dc26a5
+### Installation
+
+1. Clone this repository:  
+```bash
+git clone https://github.com/SalmanRBakhtiar/chain-of-trust-flutter-app.git

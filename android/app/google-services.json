@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "794321384039",
+    "project_id": "chainoftrust-87ffa",
+    "storage_bucket": "chainoftrust-87ffa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794321384039:android:a1b1a9ef561203b3de9ac2",
+        "android_client_info": {
+          "package_name": "com.example.chain_of_trust"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv-cFXOYluhXWv3x_-pQBq_vVbg2mwnus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

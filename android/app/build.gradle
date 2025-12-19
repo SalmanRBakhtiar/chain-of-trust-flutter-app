@@ -1,0 +1,57 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services" // For Firebase
+}
+
+android {
+    namespace = "com.example.chain_of_trust"
+    compileSdk = 35
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.chain_of_trust"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        multiDexEnabled = true // For Firebase compatibility
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug // Consider using a proper signing config for release
+            minifyEnabled = true // Enable code shrinking
+            shrinkResources = true // Enable resource shrinking (requires minifyEnabled)
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled = false
+            shrinkResources = false
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Firebase BoM for version management
+    implementation platform('com.google.firebase:firebase-bom:33.11.0')
+
+    // Add only the Firebase libraries you actually use
+    implementation 'com.google.firebase:firebase-auth'
+    // implementation 'com.google.firebase:firebase-firestore' // Uncomment if using Firestore
+    // implementation 'com.google.firebase:firebase-analytics' // Uncomment if using Analytics
+}

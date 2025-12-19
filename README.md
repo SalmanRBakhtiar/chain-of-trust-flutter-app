@@ -1,3 +1,5 @@
+![Chain of Trust Logo](assets/logo.jpg)
+
 # Chain of Trust Flutter App
 
 Chain of Trust is a Flutter mobile application for blockchain-based certificate creation, verification, and management. 
